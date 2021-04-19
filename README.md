@@ -26,7 +26,12 @@ Useful shell aliases for Linux
 
         $ echo "source ~/linux-bash-aliases/linux-bash-aliases.sh" >>~/.bashrc
 
-# Extending with yor aliases
+# Adding more aliases
 
 1. Create new alias script file in this directory
+2. Run `$ exec $SHELL -l` or `$ reload`
+
+# Removing aliases
+
+1. Delete the alias file (or comment it out)
 2. Run `$ exec $SHELL -l` or `$ reload`
