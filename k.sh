@@ -1,4 +1,4 @@
-echo "Kubectl + contexts switching aliases"
+echo "k, kcl - Kubectl + contexts switching aliases"
 
 # Kubectl (suggested in Kubernetes in action)
 alias k="kubectl"

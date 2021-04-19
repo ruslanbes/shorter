@@ -1,2 +1,2 @@
-echo "python3 - make it default (should not be needed after python2 is gone)"
+echo "python3 - make it default"
 alias python='python3'
