@@ -8,5 +8,7 @@ for filename in $scriptDir/*.sh; do
 		source $filename
 	fi
 done
+unset thisFile
+unset scriptDir
 
 echo ""
