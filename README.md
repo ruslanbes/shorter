@@ -13,7 +13,7 @@ Useful shell aliases for Linux. One shell file = one alias. Following the [singl
 1. `$ cd ~` (or any directory of your choice)
 2. `$ git clone <this-repository-url>`
 3. `$ source ~/linux-bash-aliases/linux-bash-aliases.sh`
-4. If the reault looks ok, write the previous command in `~/.bashrc`:
+4. If the result looks ok, write the previous command in `~/.bashrc`:
 
         $ echo "source ~/linux-bash-aliases/linux-bash-aliases.sh" >>~/.bashrc
 
