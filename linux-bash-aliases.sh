@@ -1,14 +1,14 @@
 echo "Loaded aliases:"
 
-thisFile=$BASH_SOURCE 
-scriptDir=$(dirname $thisFile)
-for filename in $scriptDir/*.sh; do
-	if [ "$thisFile" != "$filename" ]; then	
-		echo -en "- $(basename $filename)\t: "
-		source $filename
-	fi
+scriptDir=$(dirname $BASH_SOURCE)
+aliasesDir="$scriptDir/aliases/*"
+for aliasPath in $aliasesDir; do
+	aliasName=$(basename $aliasPath)
+	echo -en "- $aliasName\t: "
+	source "$aliasPath/$aliasName.sh"
 done
-unset thisFile
 unset scriptDir
+unset aliasesDir
+unset aliasName
 
 echo ""

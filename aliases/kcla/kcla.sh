@@ -1,10 +1,4 @@
-echo "k, kcl - Kubectl + contexts switching aliases"
-
-# Kubectl (suggested in Kubernetes in action)
-alias k="kubectl"
-alias kcl="kubectl config get-contexts"
-alias kclu="kubectl config use-context"
-alias kcld="kubectl config delete-context"
+echo "[A]dd Kubernetes context"
 
 function kcla() { 
     KUBECONFIG0=$HOME/.kube/config
@@ -20,5 +14,3 @@ function kcla() {
 
     unset KUBECONFIG0
 }
-
-# Completions: source <(kubectl completion zsh)

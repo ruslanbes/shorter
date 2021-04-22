@@ -1,2 +1,2 @@
-echo "pubip - print your public ip"
+echo "Print your public ip"
 alias pubip='dig +short myip.opendns.com @resolver1.opendns.com'
