@@ -1,3 +1,8 @@
-echo "[D]elete Kubernetes context"
+echo "[D]elete Kubernetes context, cluster and user"
 
-alias kcld="kubectl config delete-context"
+function kcld() {
+    kubectl config delete-context $@
+    kubectl config delete-cluster $@
+    kubectl config delete-user $@
+}
+
