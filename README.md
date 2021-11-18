@@ -1,11 +1,11 @@
 Useful shell aliases for Linux. One shell file = one alias. Following the [single-responsibility principle](https://en.wikipedia.org/wiki/Single-responsibility_principle).
 
-       source ~/linux-bash-aliases/linux-bash-aliases.sh
-       Loaded aliases:
-        - f     : Search file by name
-        - git-clean-branches    : Cleanup local orphaned branches
-        - gp    : Git add all and push
-        ...
+    source ~/linux-bash-aliases/linux-bash-aliases.sh
+    Loaded aliases:
+    - f     : Search file by name
+    - git-clean-branches    : Cleanup local orphaned branches
+    - gp    : Git add all and push
+    ...
 
 
 # Installation
