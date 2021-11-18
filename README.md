@@ -27,5 +27,5 @@ Useful shell aliases for Linux. One shell file = one alias. Following the [singl
 
 # Removing alias
 
-1. `rmrf aliases/newalias`
+1. `$ rm -rf aliases/newalias`
 2. `$ reload`
