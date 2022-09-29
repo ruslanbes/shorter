@@ -1,21 +1,23 @@
-Useful shell aliases for Linux. One shell file = one alias. Following the [single-responsibility principle](https://en.wikipedia.org/wiki/Single-responsibility_principle).
 
-    source ~/linux-bash-aliases/linux-bash-aliases.sh
+**Shorter** is an opninonated pack of short versions (aliases) of some common commands. Adapted for Mac.
+
+One shell file = one alias. Following the [single-responsibility principle](https://en.wikipedia.org/wiki/Single-responsibility_principle).
+
+    source ~/shorter/shorter.zsh
     Loaded aliases:
     - f     : Search file by name
     - git-clean-branches    : Cleanup local orphaned branches
     - gp    : Git add all and push
     ...
 
-
 # Installation
 
 1. `cd ~` (or any directory of your choice)
 2. `git clone <this-repository-url>`
-3. `source ~/linux-bash-aliases/linux-bash-aliases.sh`
-4. If the result looks ok, write the previous command in `~/.bashrc`:
+3. `source ~/shorter/shorter.zsh`
+4. If the result looks ok, write the previous command in `~/.zshrc`:
 
-        echo "source ~/linux-bash-aliases/linux-bash-aliases.sh" >>~/.bashrc
+        echo "source ~/shorter/shorter.zsh" >> ~/.zshrc
 
 # Adding new alias
 
