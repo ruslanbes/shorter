@@ -1,5 +1,5 @@
 
-**Shorter** is an opninonated pack of short versions (aliases) of some common commands. Adapted for Mac.
+**Shorter** is an opinionated pack of short versions (aliases) of some common commands. Adapted for Mac.
 
 One shell file = one alias. Following the [single-responsibility principle](https://en.wikipedia.org/wiki/Single-responsibility_principle).
 
